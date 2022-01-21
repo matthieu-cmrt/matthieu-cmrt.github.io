@@ -49,3 +49,20 @@ p {
    line-height: 1.6;
    margin-bottom: 20px;
 }
+
+/* ====== HYPERLINK STYLES ====== */
+/* Passive link styles */               
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: #006600;
+    border-bottom: solid 2px #006600;
+} 
+                                        
+/* Interactive link styles */              
+a:hover, a:focus, a:active {
+    text-decoration: none; 
+    padding-bottom: 2px;
+    color: #f26f21;
+    border-bottom: solid 2px blue;
+}
