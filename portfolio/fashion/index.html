@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page Title</title>
+    <meta name="description" content="Sample web page description goes here.">
+
+	<!-- Preload hero image -->
+    <link rel="preload" href="assets/videos/hero-still.jpg" as="image">
+
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunadoge.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <!-- navigation menu -->
+    <nav></nav>
+
+    <!-- header hero block -->
+    <header class="hero-block text-center-desktop text-center-mobile">
+
+        <div class="hero-text-container">
+            <h1 class="text-shadow fade-in">SUPER SNAZZY</h1>
+            <h2 class="text-shadow fade-in">Fashions you will love at prices you can afford.</h2>
+        </div>
+
+        <div class="hero-bg-media">
+            <video loop playsinline muted autoplay poster="assets/videos/hero-still.jpg" class="background-video" disablepictureinpicture preload="auto">
+                <source src="assets/videos/hero-video.mp4" type="video/mp4">
+            </video>
+        </div>
+    
+        <div class="bg-overlay"></div>
+    
+    </header>
+
+
+    <!-- main content with sections -->
+    <main>
+        <section class="theme-one text-center">
+
+            <h2>Only the best for you</h2>
+            <p class="standfirst">Welcome to Europe's number one fashion retailer. No one rivals our collection of <a href="#hats">hats</a>, <a href="#scarves">scarves</a>, <a href="#t-shirts">t-shirts</a>, and <a href="#footwear">footwear</a>. And we place customer <a href="#satisfaction">satisfaction</a> at the heart of all we do.</p>
+            
+        </section>
+        
+        <section class="theme-two" id="hats">
+            <h2>Hats</h2>
+            <p>Shop our massive collection of fashion headwear, hats and caps. We are here to help you accessorise for every occasion. Add your logo or design to create your custom headwear.</p>
+
+            <figure>
+                <img src="assets/img/hat.jpg" alt="Hats">
+            </figure>
+
+            <p>Embroidered caps are a popular choice for uniforms, workwear or fashion and are an excellent way to develop a distinctive look for your brand. Personalised caps and hats are also a great way to enhance your visibility at an event.</p>
+            <div class="container-btn"><a href="#" class="btn btn-primary btn-rounded"><span>Shop the collection</span></a></div>
+        </section>
+
+        <section class="theme-three" id="scarves">
+            <h2>Scarves</h2>
+            <p>Discover our beautiful range of scarves for all occasions in a wide variety of designs. Our carefully curated selection includes merino wool, cashmere blend, linen, and silk scarves.</p>
+
+            <figure>
+                <img src="assets/img/scarves.jpg" alt="Scarves">
+            </figure>
+
+            <p>Whether you are looking for a printed scarf, a silk scarf or a knitted wrap for keeping warm on those cold winter nights, you will be sure to find something you love in our collection.</p>
+            <div class="container-btn"><a href="#" class="btn btn-primary btn-rounded"><span>Shop the collection</span></a></div>
+        </section>            
+
+        <section class="theme-two" id="t-shirts">
+            <h2>T-shirts</h2>
+            <p>Be unique. Check out our vast collection of t-shirts ethically sourced from independent artists from around the globe. We offer the highest t-shirts on the Internet.</p>
+
+            <figure>
+                <img src="assets/img/tee-shirts.jpg" alt="Tee-shirts">
+            </figure>
+
+            <p>Our order fulfilment team is obsessed with customer service. We have thousands of original designs across dozens of different product types – you are guaranteed to find something you love!</p>
+            <div class="container-btn"><a href="#" class="btn btn-primary btn-rounded"><span>Shop the collection</span></a></div>
+        </section>
+        
+        <section class="theme-three" id="footwear">
+
+            <h2>Footwear</h2>
+            <p>Shop our fabulous selection of women’s footwear right here. Our range includes all the latest trends and brands in shoes, boots, heels, wedges, trainers, sandals, and more. We have them all. Refresh your shoe closet with a pair from our online shoe store.</p>
+            
+            <figure>
+                <img src="assets/img/footwear.jpg" alt="Footwear">
+            </figure>
+            
+            <p>Whether you are after a pair of sleek sneakers, designer booties, or comfy sandals, our extensive collection of top brands will have you strutting with confidence!</p>
+            <div class="container-btn"><a href="#" class="btn btn-primary btn-rounded"><span>Shop the collection</span></a></div>
+        </section>
+        
+        
+        <section class="container-flex theme-four text-center mobile-col-2 icon-small" id="satisfaction">
+            <div class="col-1 text-center">
+                <h2>Happy Customers</h2>
+                <h3>Over half of Super Snazzy customers are repeat purchasers.</h3>
+            </div>
+            <div class="col-4">
+                <figure class="icon"><i class="las la-truck"></i></figure>
+                
+                <h3>Fast Delivery</h3>
+                <p>We ship all over Europe using only the best and fastest delivery services.</p>
+            </div>
+            <div class="col-4">
+                <figure class="icon"><i class="las la-euro-sign"></i></figure>
+                
+                <h3>Lowest Prices</h3>
+                <p>We shine on product quality and we will not be beaten on product prices.</p>
+            </div>
+            <div class="col-4">
+                <figure class="icon"><i class="las la-arrows-alt-h"></i></figure>
+                
+                <h3>Easy Returns</h3>
+                <p>Our no-quibble return and refund policy is there whenever you need it.</p>
+            </div>
+            <div class="col-4">
+                <figure class="icon"><i class="las la-comments"></i></figure>
+                
+                <h3>We Listen</h3>
+                <p>Our staff are always ready to listen to your feedback - online and over the phone.</p>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- footer -->
+    <footer></footer>
+       
+    <script src="assets/js/menu.js"></script>
+
+</body>
+</html>
