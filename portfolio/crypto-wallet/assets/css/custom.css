@@ -141,9 +141,13 @@ body { font-family: var(--global-font) }
 .container-menu.menu-mobile { background-color: var(--trans-000) }
 .container-menu.menu-mobile ul.mobile-display { background-color: var(--trans-000) }
 .container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--white-000) }
+.container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited { background-color: var(--red-500) }
 .container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited { border-color: var(--red-500) }
+.container-menu a:link,
+.container-menu a:visited { color: var(--white-000) }
 
 header.hero-block a.btn-primary:link,
 header.hero-block a.btn-primary:visited { border-color: var(--white-000) }
