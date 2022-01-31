@@ -1,7 +1,7 @@
 /*  ============= WEB BROWSER RESETS ============ */
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
-html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+html { height: 100%; font: inherit; font-size: 100%; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
 body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
 min-height: 100vh; text-rendering: optimizeSpeed }  
@@ -9,10 +9,11 @@ img { width: 100%; height: auto; display: block }
 h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
 
+
 /* ================= ENDS ================ */
 
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) { body { padding: 4% 20%; } }
 
 /* Mobiles */
 @media (max-width: 767px) { body { padding: 12% 8% } }
@@ -25,8 +26,8 @@ body {
 }
 
 /* Main heading */
-h1 {   
-    font-size: calc(48px + (84 - 48) * ((100vw - 320px) / (1600 - 320)));
+h1 {
+    font-size: calc(48px + (84 - 48) * ((100vw - 320px) /(1600 - 320)));
     line-height: 1.1;
     font-weight: normal;
     color: #3434B0;
@@ -36,16 +37,16 @@ h1 {
 }
 
 /* Small headings */
-h2 {   
-    font-size: calc(18px + (26 - 18) * ((100vw - 320px) / (1600 - 320)));
+h2 { 
+    font-size: calc(18px + (26 - 18) * ((100vw - 320px) /(1600 - 320)));
     color:#3434B0;
     line-height: 1.5;
     margin-bottom: 42px;
 }
 
 /* Smaller headings */
-h3 {   
-    font-size: calc(32px + (38 - 32) * ((100vw - 320px) / (1600 - 320)));
+h3 {  
+    font-size: calc(32px + (38 - 32) * ((100vw - 320px) /(1600 - 320)));
     color: #000;
     letter-spacing:-1px;
     margin-top: 40px;
@@ -55,36 +56,23 @@ h3 {
 
 /* Text paragraphs */
 p {
-    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) /(1600 - 320)));
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
     margin-bottom: 22px;
 }
 
-.video-container {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    margin-bottom: 32px;
-}
-            
-.video-container::after {
-    padding-top: 56.25%;
-    display: block;
-    content: '';
-}
-            
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/* Images */
+img { 
+    margin-bottom: 42px;
+    /* Drop shadow effect at right and bottom of image */
+    box-shadow: 8px 10px 8px #888;    
 }
 
 /* ====== HYPERLINK STYLES ====== */
-
+            
+         
 /* Passive link styles */
             
 a:link, a:visited {
@@ -102,3 +90,26 @@ a:hover, a:focus, a:active {
     color: #f26f21;
     border-bottom: solid 2px blue;
 }
+
+/* Embedded YouTube video */
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: 32px;
+ }
+ 
+ .video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+ }
+ 
+ .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
