@@ -135,7 +135,7 @@
 }
 
 /* Global font */
-body { font-family: var(--global-font) }
+body { font-family: 'Outfit',var(--global-font) }
 
 .container-menu.menu-desktop { background-color: var(--trans-000) }
 .container-menu.menu-mobile { background-color: var(--trans-000) }
