@@ -134,5 +134,74 @@
 }
 
 /* Global font */
-body { font-family: var(--global-font) }
+body { font-family: 'Merriweather', var(--global-font) }
+
+.container-menu { background-color: var(--ontrend-800);}
+.container-menu a:link,
+.container-menu a:visited { color: var(--blue-100) }
+.container-menu a:focus,
+.container-menu a:hover,
+.container-menu a:active { color: var(--blue-300) }
+.container-menu.menu-mobile,
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--ontrend-800) }
+.container-menu.menu-mobile ul.mobile-display a:link,
+.container-menu.menu-mobile ul.mobile-display a:visited { color: var(--blue-100) }
+.container-menu.menu-mobile ul.mobile-display a:focus,
+.container-menu.menu-mobile ul.mobile-display a:hover,
+.container-menu.menu-mobile ul.mobile-display a:active { color: var(--blue-300) }
+#name { font-family: 'Permanent Marker', 'Merriweather', var(--global-font); }
+
+
+header.hero-block { background-color: var(--ontrend-800) }
+header.hero-block h1 { color: var(--blue-200) }
+header.hero-block h2 { color: var(--blue-100) }
+header.hero-block a.btn-secondary:link,
+header.hero-block a.btn-secondary:visited { color: var(--blue-100) }
+
+header.hero-block a.btn-secondary:link,
+header.hero-block a.btn-secondary:visited { border-color: var(--blue-400) }
+
+header.hero-block a.btn-primary:focus,
+header.hero-block a.btn-primary:hover,
+header.hero-block a.btn-primary:active { background-color: var(--blue-400) }
+
+header.hero-block a.btn-secondary:focus,
+header.hero-block a.btn-secondary:hover,
+header.hero-block a.btn-secondary:active { background-color: var(--blue-400) }
+
+header.hero-block a.btn-primary:link,
+header.hero-block a.btn-primary:visited { background-color: var(--blue-400) }
+
+header.hero-block a.btn-primary:link,
+header.hero-block a.btn-primary:visited { border-color: var(--ontrend-800) }
+
+header.hero-block a.btn-primary:focus,
+header.hero-block a.btn-primary:hover,
+header.hero-block a.btn-primary:active { border-color: var(--blue-300) }
+
+header.hero-block a.btn-primary:focus,
+header.hero-block a.btn-primary:hover,
+header.hero-block a.btn-primary:active { background-color: var(--blue-300) }
+
+.theme-one { background-color: var(--ontrend-700) }
+.theme-one .col-1 h2 { color: var(--blue-200) }
+.theme-one .col-1 h3 { color: var(--blue-100) }
+.theme-one .col-3 p { color: var(--white-000) }
+.theme-one .col-3 li { color: var(--white-000) }
+.theme-one .col-3 h3 { color: var(--ontrend-800) }
+.theme-one .col-3 a.mylink:link,
+.theme-one .col-3 a.mylink:visited { color: var(--ontrend-400) }
+.theme-one .col-3 a.mylink:focus,
+.theme-one .col-3 a.mylink:active,
+.theme-one .col-3 a.mylink:hover { color: var(--blue-300) }
+
+.theme-one .col-3 { background-color: var(--blue-300) }
+.theme-one a.btn-primary:link,
+.theme-one a.btn-primary:visited { background-color: var(--blue-300); border-color: var(--ontrend-900); color: var(--ontrend-700);}
+.theme-one a.btn-primary:focus,
+.theme-one a.btn-primary:hover,
+.theme-one a.btn-primary:active {background-color: var(--ontrend-900); border-color: var(--blue-300); color: var(--ontrend-400);}
+
+
+
 
