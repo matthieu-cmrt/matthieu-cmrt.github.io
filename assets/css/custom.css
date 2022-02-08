@@ -149,6 +149,7 @@ body { font-family: 'Merriweather', var(--global-font) }
 .container-menu.menu-mobile ul.mobile-display a:focus,
 .container-menu.menu-mobile ul.mobile-display a:hover,
 .container-menu.menu-mobile ul.mobile-display a:active { color: var(--blue-300) }
+.container-menu .item-icon .bar1,.container-menu .item-icon .bar2,.container-menu .item-icon .bar3 { background-color: var(--blue-100) }
 #name { font-family: 'Permanent Marker', 'Merriweather', var(--global-font); }
 
 
