@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Web Page Title</title>
-    <meta name="description" content="Sample web page description goes here.">
+    <title>Matthieu Camart | Selected Portfolio</title>
+    <meta name="description" content="Here are some project I have built using my web design and development skills">
 
 	<!-- Preload hero image -->
 
@@ -35,7 +35,7 @@
 <body>
 
     <!-- navigation menu -->
-    <nav class="container-menu menu-desktop menu-sticky">
+    <nav class="container-menu menu-desktop">
         <a href="#" id="name">Matthieu Camart</a>
         <ul>
             <li><a href="../index.html">Home</a></li>
@@ -50,16 +50,45 @@
     </nav>
 
     <!-- header hero block -->
-    <header>
-
+    <header class="hero-block text-center-desktop text-center-mobile">
+        <div class="hero-text-container">
+            <h1 class="fade-in">Welcome to my work</h1>
+            <h2 class="fade-in">I use <strong>HTML</strong> and <strong>CSS</strong> with <strong>graphic desgin</strong> and <strong>animation</strong> to bring your ideas to life.</h2>
+        </div>
+            <div class="container-btn">
+                <a href="../contact/index.html" class="btn btn-primary btn-rounded"><i class="far fa-envelope"></i><span>Contact Me</span></a>
+            </div>
     </header>
 
 
     <!-- main content with sections -->
-    <main>
-        
+    <section class="container-flex theme-one col-shadows corners-soft text-center">
+		<div class="col-1 text-center">
+			<h2>Recent projects</h2>
+			<h3>Below you can see some examples of my recent work. Check out my complete <a href="#" class="mylink">portfolio</a>. Have a project you would like to discuss? <a href="../contact/index.html" class="mylink">Let's make something great together!</a></h3>
+		</div>
 
-    </main>
+		<div class="col-3">
+			<figure><img src="../assets/img/project-van-gogh.png" alt="Project Van Gogh"></figure>
+			<h3>Vincent Van Gogh</h3>
+			<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
+            <a href="van-gogh/index.html" target="_blank" class="btn btn-primary btn-rounded">VIEW PROJECT</a>
+		</div>
+
+		<div class="col-3">
+			<figure><img src="../assets/img/project-fashion.jpg" alt="Project Fasion"></figure>
+			<h3>Snazzy Fashion</h3>
+			<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+            <a href="van-gogh/index.html" target="_blank" class="btn btn-primary btn-rounded">VIEW PROJECT</a>
+		</div>
+
+		<div class="col-3">
+			<figure><img src="../assets/img/project-smoothie.jpg" alt="Project Smoothies"></figure>
+            <h3>Smooth Smoothies</h3>
+            <p>Offering tasty alternatives to sugary and unhealthy snacks for busy, on-the-go, on-trend professionals.</p>
+            <a href="van-gogh/index.html" target="_blank" class="btn btn-primary btn-rounded">VIEW PROJECT</a>
+		</div>
+	</section>
 
     
     <!-- footer -->
