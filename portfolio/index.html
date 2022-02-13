@@ -13,6 +13,7 @@
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="../assets/css/lunadoge.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 	<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,7 @@
     <!-- Google Material Design Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
     rel="stylesheet">
-
+    
 </head>
 
 
@@ -115,6 +116,21 @@
 	</footer>
        
     <script src="../assets/js/menu.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+        "background": "#000"
+        },
+        "button": {
+        "background": "#f1d600"
+        }
+    },
+    "content": {
+        "href": "https://matthieu-cmrt.github.io/privacy.html"
+    }
+    });
+    </script>
 </body>
 </html>
