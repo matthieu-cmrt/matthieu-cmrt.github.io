@@ -193,7 +193,7 @@ header.hero-block a.btn-primary:active { background-color: var(--blue-300) }
 .theme-one .col-3 li { color: var(--white-000) }
 .theme-one .col-3 h3 { color: var(--ontrend-800) }
 .theme-one .col-3 a.mylink:link,
-.theme-one .col-3 a.mylink:visited { color: var(--ontrend-400) }
+.theme-one .col-3 a.mylink:visited { color: var(--ontrend-  400) }
 .theme-one .col-3 a.mylink:focus,
 .theme-one .col-3 a.mylink:active,
 .theme-one .col-3 a.mylink:hover { color: var(--blue-300) }
