@@ -54,8 +54,6 @@ const calculator = {
     calculator.operator = nextOperator;
   }
   
-
-  
   function resetCalculator() {
     calculator.displayValue = '0';
     calculator.firstOperand = null;

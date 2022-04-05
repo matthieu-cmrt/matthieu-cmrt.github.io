@@ -1,4 +1,4 @@
-function calculate(firstOperand, secondOperand, operator) {
+export function calculate(firstOperand, secondOperand, operator) {
     if (operator === '+') {
         return firstOperand + secondOperand;
     } else if (operator === '-') {
@@ -11,5 +11,3 @@ function calculate(firstOperand, secondOperand, operator) {
 
     return secondOperand;
 }
-    
-export function calculate(firstOperand, secondOperand, operator);
